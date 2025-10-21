@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Congreso de Ciberseguridad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <img src="https://www.utp.ac.pa/sites/default/files/fisc-logo-color-horizontal-large.png" alt="Logo UTP" class="logo">
+                <div>
+                    <h1>Congreso de Ciberseguridad</h1>
+                    <p class="tagline">Formulario de Registro</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programa.html">Programa</a></li>
+                    <li><a href="horario.html">Horario</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h3>Inscripción al Congreso</h3>
+            <p class="intro">Completa el formulario para asegurar tu cupo.</p>
+            <form class="form">
+                <div class="form-grid">
+                    <div>
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="fullwidth">
+                        <label for="institucion">Institución o Empresa</label>
+                        <input type="text" id="institucion" name="institucion">
+                    </div>
+                    <div class="fullwidth checkbox">
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">Acepto las políticas de privacidad</label>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button type="submit" class="btn-primary">Enviar Registro</button>
+                    <button type="reset" class="btn-outline">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Congreso de Ciberseguridad | Universidad Tecnológica de Panamá</p>
+            <p class="small">Diseñado por DSV</p>
+        </div>
+    </footer>
+
+</body>
+</html>
